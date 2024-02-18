@@ -62,6 +62,7 @@
   .text {
     font-family: "Kode Mono", monospace;
     width: 30%;
+    line-height: 30px;
   }
 
   h2 {
