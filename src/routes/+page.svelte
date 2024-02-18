@@ -37,7 +37,7 @@
   <div class="wave"></div>
 </main>
 
-<Footer />
+<Footer name="Ray Maeda" />
 
 <style>
   .box {
