@@ -1,9 +1,12 @@
 <script>
-  import Header from '$lib/Header.svelte'
-  import Footer from '$lib/Footer.svelte'
+  import Header from "$lib/Header.svelte"
+  import Nav from "$lib/Nav.svelte"
+  import Footer from "$lib/Footer.svelte"
 </script>
 
 <Header />
+
+<Nav />
 
 <main>
   <h2>Lorem Ipsum with Flavour</h2>
