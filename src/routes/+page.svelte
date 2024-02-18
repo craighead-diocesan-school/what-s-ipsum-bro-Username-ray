@@ -49,6 +49,7 @@
       </a>
     </div>
   </div>
+  <div class="wave"></div>
 </main>
 
 <Footer />
@@ -93,5 +94,17 @@
     .text {
       width: 100%;
     }
+  }
+  main {
+    background: #fcd4e8;
+    padding-bottom: 3rem;
+  }
+
+  /* wave effect generated at https://css-generators.com/custom-borders/ */
+  .wave {
+    --mask: radial-gradient(52.5px at 50% calc(100% - 74px), #000 99%, #0000 101%) calc(50% - 80px) 0/160px 100%, radial-gradient(52.5px at 50% calc(100% + 34px), #0000 99%, #000 101%) 50% calc(100% - 40px) / 160px 100% repeat-x;
+    mask: var(--mask);
+    background: #f2e6f7;
+    height: 70px;
   }
 </style>
