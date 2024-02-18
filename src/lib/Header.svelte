@@ -4,7 +4,7 @@
 
 <style>
   header {
-    background: lavender;
+    background: #f2e6f7;
   }
   h1 {
     font-family: "Kode Mono", monospace;
