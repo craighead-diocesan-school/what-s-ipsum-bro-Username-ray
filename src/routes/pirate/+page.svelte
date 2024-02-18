@@ -22,6 +22,7 @@
   main {
     background: #f2e6f7;
     font-family: "Kode Mono", monospace;
+    padding-bottom: 20px;
   }
   h2 {
     text-align: center;
