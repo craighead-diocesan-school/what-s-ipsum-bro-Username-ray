@@ -9,7 +9,8 @@
   h1 {
     font-family: "Kode Mono", monospace;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
     margin-bottom: 0;
   }
 </style>

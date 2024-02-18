@@ -12,43 +12,28 @@
   <div class="columns">
     <div class="text">
       <h2>Lorem Ipsum with Flavour</h2>
-    </div>
-  </div>
-
-  <div class="columns">
-    <div class="text">
       <p>What's Ipsum Bro is a lorem ipsum generator with a twist. Instead of the same old boring lorem ipsum, you can choose from a variety of flavours to spice up your placeholder text.</p>
     </div>
-  </div>
 
-  <div class="columns">
     <div class="boxes">
       <a href="pirate">
         <img src="pirate.png" alt="Pirate" class="box" />
       </a>
-    </div>
-  </div>
-  <div class="columns">
-    <div class="boxes">
+
       <a href="cheese">
         <img src="cheese.png" alt="Cheese" class="box" />
       </a>
-    </div>
-  </div>
-  <div class="columns">
-    <div class="boxes">
+
       <a href="cupcake">
         <img src="cupcake.png" alt="Cupcake" class="box" />
       </a>
-    </div>
-  </div>
-  <div class="columns">
-    <div class="boxes">
+
       <a href="hipster">
         <img src="hipster.png" alt="Hipster" class="box" />
       </a>
     </div>
   </div>
+
   <div class="wave"></div>
 </main>
 
