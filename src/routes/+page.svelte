@@ -63,6 +63,10 @@
     background: ivory;
     box-shadow: 10px 10px #fcd4e8;
   }
+  .box:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
   .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -106,5 +110,9 @@
     mask: var(--mask);
     background: #f2e6f7;
     height: 70px;
+  }
+  .wave:hover {
+    transform: scale(1.1, 1.5);
+    transition: 0.5s;
   }
 </style>
