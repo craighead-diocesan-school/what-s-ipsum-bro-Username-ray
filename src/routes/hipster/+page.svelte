@@ -1,7 +1,7 @@
 <script>
-  import Header from "$lib/Header.svelte"
-  import Nav from "$lib/Nav.svelte"
-  import Footer from "$lib/Footer.svelte"
+  import Header from "$lib/Header_hipster.svelte"
+  import Nav from "$lib/Nav_hipster.svelte"
+  import Footer from "$lib/Footer_hipster.svelte"
 </script>
 
 <Header />
@@ -16,13 +16,16 @@
   <p>Put a bird on it vibecession fashion axe YOLO asymmetrical. VHS photo booth listicle fam truffaut subway tile yr cred chicharrones semiotics biodiesel green juice microdosing whatever. Truffaut praxis PBR and B tattooed street art. Prism jean shorts pickled vegan. Vegan praxis cronut kitsch pop-up. Letterpress street art mlkshk marxism.</p>
 </main>
 
+<div class="wave"></div>
+
 <Footer name="Ray Maeda" />
 
 <style>
   main {
-    background: #f2e6f7;
-    font-family: "Kode Mono", monospace;
+    background: linear-gradient(45deg, #2cd9cd 0%, #c5c1ff 56%, #f3bccc 100%);
+    font-family: "Barriecito", system-ui;
     padding-bottom: 20px;
+    font-size: 120%;
   }
   h2 {
     text-align: center;
@@ -31,5 +34,15 @@
   p {
     padding: 20px 100px;
     line-height: 30px;
+  }
+  .wave {
+    --mask: radial-gradient(52.5px at 50% calc(100% - 74px), #000 99%, #0000 101%) calc(50% - 80px) 0/160px 100%, radial-gradient(52.5px at 50% calc(100% + 34px), #0000 99%, #000 101%) 50% calc(100% - 40px) / 160px 100% repeat-x;
+    mask: var(--mask);
+    background: #fc5c9c;
+    height: 70px;
+  }
+  .wave:hover {
+    transform: scale(1.1, 1.5);
+    transition: 0.5s;
   }
 </style>

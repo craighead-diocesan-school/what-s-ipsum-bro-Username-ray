@@ -1,7 +1,7 @@
 <script>
-  import Header from "$lib/Header.svelte"
-  import Nav from "$lib/Nav.svelte"
-  import Footer from "$lib/Footer.svelte"
+  import Header from "$lib/Header_pirate.svelte"
+  import Nav from "$lib/Nav_pirate.svelte"
+  import Footer from "$lib/Footer_pirate.svelte"
 </script>
 
 <Header />
@@ -16,13 +16,16 @@
   <p>Draft scuttle rigging shrouds blow the man down belaying pin cog fluke strike colors killick. Gibbet case shot hulk main sheet landlubber or just lubber fathom Corsair coxswain reef Jolly Roger. Parrel jib man-of-war run a shot across the bow bounty maroon dead men tell no tales Cat o'nine tails ye swing the lead.</p>
 </main>
 
+<div class="wave"></div>
+
 <Footer name="Ray Maeda" />
 
 <style>
   main {
-    background: #f2e6f7;
-    font-family: "Kode Mono", monospace;
+    background: #0f0429;
+    font-family: "Protest Revolution", sans-serif;
     padding-bottom: 20px;
+    color: #ffffffd1;
   }
   h2 {
     text-align: center;
@@ -30,6 +33,16 @@
   }
   p {
     padding: 20px 100px;
-    line-height: 30px;
+    line-height: 35px;
+  }
+  .wave {
+    --mask: radial-gradient(52.5px at 50% calc(100% - 74px), #000 99%, #0000 101%) calc(50% - 80px) 0/160px 100%, radial-gradient(52.5px at 50% calc(100% + 34px), #0000 99%, #000 101%) 50% calc(100% - 40px) / 160px 100% repeat-x;
+    mask: var(--mask);
+    background: #516eef;
+    height: 70px;
+  }
+  .wave:hover {
+    transform: scale(1.1, 1.5);
+    transition: 0.5s;
   }
 </style>
