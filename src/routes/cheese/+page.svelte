@@ -14,6 +14,10 @@
   <p>Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet taleggio hard cheese roquefort when the cheese comes out everybody's happy. St. agur blue cheese port-salut bocconcini cheesecake rubber cheese mozzarella stilton cheese strings. Bocconcini.</p>
 
   <p>Fromage the big cheese camembert de normandie. Cut the cheese gouda brie the big cheese when the cheese comes out everybody's happy squirty cheese cut the cheese gouda. Boursin cottage cheese cheeseburger camembert de normandie cheese slices goat port-salut danish fontina. Emmental caerphilly cream cheese mozzarella camembert de normandie cheesy feet.</p>
+
+  <div class="image">
+    <img src="cheese-plate.jpg" alt="Cheese Plate" />
+  </div>
 </main>
 
 <div class="wave"></div>
@@ -34,6 +38,14 @@
   p {
     padding: 20px 100px;
     line-height: 30px;
+  }
+  img {
+    width: 700px;
+    height: auto;
+  }
+  .image {
+    text-align: center;
+    padding-bottom: 20px;
   }
   .wave {
     --mask: radial-gradient(52.5px at 50% calc(100% - 74px), #000 99%, #0000 101%) calc(50% - 80px) 0/160px 100%, radial-gradient(52.5px at 50% calc(100% + 34px), #0000 99%, #000 101%) 50% calc(100% - 40px) / 160px 100% repeat-x;
