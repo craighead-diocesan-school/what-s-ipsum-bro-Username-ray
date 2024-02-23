@@ -13,5 +13,6 @@
     padding-top: 100px;
     padding-bottom: 20px;
     margin-bottom: 0;
+    font-size: 150%;
   }
 </style>
