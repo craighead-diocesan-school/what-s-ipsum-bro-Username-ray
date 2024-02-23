@@ -11,12 +11,14 @@
 <main>
   <h2>You Probably Haven't Heard of Hipster Ipsum</h2>
 
-  <p>Fingerstache tofu pickled vibecession kitsch lyft blackbird spyplane vegan craft beer keytar banh mi thundercats. Hashtag heirloom vape scenester paleo hexagon. Blackbird spyplane pok pok DIY heirloom scenester food truck kale chips pabst, bitters raw denim artisan waistcoat seitan freegan.</p>
+  <div class="container">
+    <p class="paragraph1">Fingerstache tofu pickled vibecession kitsch lyft blackbird spyplane vegan craft beer keytar banh mi thundercats. Hashtag heirloom vape scenester paleo hexagon. Blackbird spyplane pok pok DIY heirloom scenester food truck kale chips pabst, bitters raw denim artisan waistcoat seitan freegan.</p>
 
-  <p>Put a bird on it vibecession fashion axe YOLO asymmetrical. VHS photo booth listicle fam truffaut subway tile yr cred chicharrones semiotics biodiesel green juice microdosing whatever. Truffaut praxis PBR and B tattooed street art. Prism jean shorts pickled vegan. Vegan praxis cronut kitsch pop-up. Letterpress street art mlkshk marxism.</p>
+    <p class="paragraph2">Put a bird on it vibecession fashion axe YOLO asymmetrical. VHS photo booth listicle fam truffaut subway tile yr cred chicharrones semiotics biodiesel green juice microdosing whatever. Truffaut praxis PBR and B tattooed street art. Prism jean shorts pickled vegan. Vegan praxis cronut kitsch pop-up. Letterpress street art mlkshk marxism.</p>
 
-  <div class="image">
-    <img src="man.jpg" alt="Hipster" />
+    <div class="image">
+      <img src="man.jpg" alt="Hipster" />
+    </div>
   </div>
 </main>
 
@@ -37,10 +39,35 @@
   }
   p {
     padding: 20px 100px;
-    line-height: 30px;
+    line-height: 50px;
+    font-size: 110%;
+    color: azure;
+    filter: drop-shadow(2px 2px 0px #2204043e);
+  }
+  .paragraph1 {
+    transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    width: 900px;
+    position: absolute;
+    top: 10%;
+  }
+  .paragraph2 {
+    transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    width: 900px;
+    position: absolute;
+    top: 60%;
+  }
+  .container {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin: 0% 15% 10% 15%;
   }
   img {
-    width: 700px;
+    width: 1000px;
     height: auto;
   }
   .image {
