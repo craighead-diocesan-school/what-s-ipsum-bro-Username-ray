@@ -37,10 +37,12 @@
   h2 {
     text-align: center;
     padding: 20px;
+    filter: drop-shadow(2px 2px 0px #9072f281);
   }
   p {
     padding: 20px 100px;
     line-height: 35px;
+    filter: drop-shadow(2px 2px 0px #9072f281);
   }
   img {
     width: 700px;
